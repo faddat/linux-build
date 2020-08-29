@@ -5,7 +5,6 @@ jobs:
     runs-on: archlinux
     steps:
     - name: Install dependencies
-      uses: 
       run: pacman -Syyu glib2-static python pcre-static
     - name: Checkout code
       uses: actions/checkout@v2
